@@ -458,6 +458,8 @@ files:
     maintainers: n0ts
   $modules/datadog_monitor.py:
     ignore: skornehl
+  $modules/datadog_synthetics.py:
+    maintainers: jpfender
   $modules/dconf.py:
     maintainers: azaghal
   $modules/deploy_helper.py:
@@ -1150,9 +1152,9 @@ files:
   $modules/scaleway_compute_private_network.py:
     maintainers: pastral
   $modules/scaleway_container.py:
-     maintainers: Lunik
+    maintainers: Lunik
   $modules/scaleway_container_info.py:
-     maintainers: Lunik
+    maintainers: Lunik
   $modules/scaleway_container_namespace.py:
     maintainers: Lunik
   $modules/scaleway_container_namespace_info.py:
@@ -1399,7 +1401,7 @@ files:
     maintainers: $team_suse
   $tests/a_module.py:
     maintainers: felixfontein
-#########################
+  #########################
   tests/:
     labels: tests
   tests/integration:
